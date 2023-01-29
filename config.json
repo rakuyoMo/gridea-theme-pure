@@ -1,8 +1,8 @@
 {
-  "name": "Pure",
-  "version": "1.3.2",
-  "author": "imhanjie",
-  "repository": "https://github.com/imhanjie/gridea-theme-pure",
+  "name": "Rakuyo's Pure",
+  "version": "1.0.0",
+  "author": "imhanjie & Rakuyo",
+  "repository": "https://github.com/rakuyoMo/gridea-theme-pure",
   "customConfig": [
     {
       "name": "skin",
@@ -310,6 +310,27 @@
       "type": "markdown",
       "value": "",
       "note": "友链页面的描述信息（Markdown 格式）"
+    },
+    {
+      "name": "references",
+      "label": "收藏",
+      "group": "收藏",
+      "type": "array",
+      "value": [],
+      "arrayItems": [
+        { "label": "名称", "name": "siteName", "type": "input", "value": "" },
+        { "label": "链接", "name": "siteLink", "type": "input", "value": "" },
+        { "label": "描述", "name": "description", "type": "textarea", "value": "" }
+      ],
+      "note": ""
+    },
+    {
+      "name": "descreference",
+      "label": "页面描述",
+      "group": "收藏",
+      "type": "markdown",
+      "value": "",
+      "note": "收藏列表的描述信息（Markdown 格式）"
     },
     {
       "name": "about",
